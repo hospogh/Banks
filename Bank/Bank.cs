@@ -83,9 +83,12 @@ namespace Banks
         }
         public void PrintEmployees()
         {
+            Console.WriteLine("____________________________________________________");
             Console.WriteLine("\n" + this.name + "\n");
             foreach (Employee e in employees)
                 Console.WriteLine(e);
+            Console.WriteLine("____________________________________________________");
+
         }
     }
 }
